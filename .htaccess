@@ -2,3 +2,14 @@ Redirect 301 /rr http://myp.000.pe
 Redirect 301 /login http://myp.000.pe
 Redirect 301 /marcinha http://marcinha.serverpl.rf.gd
 Redirect 301 /hubcik http://hubcik.serverpl.rf.gd
+Redirect 301 /login http://myp.000.pe
+Redirect 301 /marcinha http://marcinha.serverpl.rf.gd
+Redirect 301 /hubcik http://hubcik.serverpl.rf.gd
+
+# BEGIN InfinityFree Directory Protection
+# DO NOT EDIT - YOUR CHANGES WILL BE OVERWRITTEN
+AuthType Basic
+AuthName "Login Required"
+AuthUserFile "/home/vol14_2/infinityfree.com/if0_36023500/serverpl.rf.gd/htdocs//.htpasswd"
+Require valid-user
+# END InfinityFree Directory Protection
