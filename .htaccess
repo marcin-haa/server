@@ -1,0 +1,4 @@
+Redirect 301 /rr http://myp.000.pe
+Redirect 301 /login http://myp.000.pe
+Redirect 301 /marcinha http://marcinha.serverpl.rf.gd
+Redirect 301 /hubcik http://hubcik.serverpl.rf.gd
